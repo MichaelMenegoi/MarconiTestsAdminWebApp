@@ -7,13 +7,46 @@
     font-size: 30px;
 }
 
-.paragraph, .link {
+.paragraph, .link, .inputLabel, .formInput {
     font-size: 18px;
 }
 
 .link {
     text-decoration: none;
     color: black;
+}
+
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+}
+
+.inputLabel {
+    font-weight: 800;
+    width: 50%;
+    text-align: left;
+}
+
+.formInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+    width: 50%;
+}
+
+
+.formButton {
+    background-color: #023047;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    align-self: center;
 }
 
 
@@ -26,7 +59,7 @@
         font-size: 24px;
     }
     
-    .paragraph, .link {
+    .paragraph, .link, .inputLabel, .formInput {
         font-size: 16px;
     }
 }

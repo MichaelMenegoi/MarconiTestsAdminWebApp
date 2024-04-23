@@ -1,10 +1,14 @@
 import "./App.css";
-import Header from './components/Header'
+import Header from "./components/Header";
+import AddSubject from "./views/AddSubject";
 
 function App() {
-  return <>
-  <Header/>
-  </>;
+  return (
+    <>
+      <Header/>
+      <AddSubject/>
+    </>
+  );
 }
 
 export default App;
